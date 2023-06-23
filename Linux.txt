@@ -18,10 +18,12 @@ Redhat - Redhat, CenOS, Fedora - make, rpm, yum, dnf
 Debian - Kali, Ubuntu - deb, apt, dpkg
 FreeBSD - FreeBSD - make, pkg, ports
 
-rpm (RedHat Package Manager) - cannot resolve software dependencies
-yum (Yellow dog Updater) - 
+rpm (RedHat Package Manager) - cannot resolve software dependencies, will cause error if one of dependencies is uninstall
+yum (Yellow dog Updater) - resolve software dependencies 
 DNF - Dandified YUM , updated form of yum
 
+apt and yum is similiar
+rpm, deb no use
 Debian : apt search, apt install, apt update, apt remove
 FreeBSD : pkg search, pkg install, pkg upgrade, pkd del
 
